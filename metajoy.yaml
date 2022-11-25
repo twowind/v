@@ -13,7 +13,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"metajoy","server":"vpn.metajoy.me","port":21638,"uuid":"e5a44214-ff0e-426d-e279-cd2daae65d67","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"","server":"vpn.metajoy.me","port":21638,"uuid":"e5a44214-ff0e-426d-e279-cd2daae65d67","alterId":0,"cipher":"auto","network":"tcp","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
